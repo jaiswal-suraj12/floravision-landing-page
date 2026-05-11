@@ -1,5 +1,5 @@
 ## 🔗 Live Demo
-[Explore FloraVision Live](https://floraplantvision.netlify.app)
+[Explore FloraVision Live] https://floraplantvision.netlify.app
 
 
 # FloraVision - Landing Page
