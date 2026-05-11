@@ -17,7 +17,7 @@ A high-fidelity, responsive plant shop landing page built as part of the SoftDef
 
 1. **Clone the repository:**
    
-   git clone [YOUR_GITHUB_REPO_LINK]
+   git clone [https://github.com/jaiswal-suraj12/floravision-landing-page.git]
 
 ## Install dependencies:
      npm install
