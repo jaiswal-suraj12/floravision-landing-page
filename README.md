@@ -1,3 +1,7 @@
+## 🔗 Live Demo
+[Explore FloraVision Live](https://floraplantvision.netlify.app)
+
+
 # FloraVision - Landing Page
 
 A high-fidelity, responsive plant shop landing page built as part of the SoftDef Frontend Internship Screening Task.
@@ -16,8 +20,7 @@ A high-fidelity, responsive plant shop landing page built as part of the SoftDef
 ## Installation & Setup
 
 1. **Clone the repository:**
-   
-   git clone [https://github.com/jaiswal-suraj12/floravision-landing-page.git]
+git clone [https://github.com/jaiswal-suraj12/floravision-landing-page.git]
 
 ## Install dependencies:
      npm install
@@ -30,3 +33,4 @@ npm run dev
 
 ### Best O2 Section
 ![Best O2](./public/assets/besto2.png)
+
