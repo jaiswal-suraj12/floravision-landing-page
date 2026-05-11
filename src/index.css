@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* 1. Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap');
+
+:root {
+  font-family: 'Outfit', sans-serif;
+  background-color: #0B1208; /* Ensures no white flash on load */
+  color: white;
+}
+
+/* 2. Custom Utilities Layer */
+@layer utilities {
+  /* Glassmorphism Effect */
+  .glass-card {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px); /* Support for Safari */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* Smooth Text Gradient */
+  .text-gradient {
+    background: linear-gradient(to right, #ffffff, #9ca3af);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  /* Background Glow Effect */
+  .bg-glow {
+    filter: blur(100px);
+    background: radial-gradient(circle, rgba(34, 197, 94, 0.15) 0%, rgba(0,0,0,0) 70%);
+  }
+}
+
+/* 3. Animations */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
