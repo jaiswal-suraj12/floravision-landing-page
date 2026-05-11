@@ -22,3 +22,11 @@ A high-fidelity, responsive plant shop landing page built as part of the SoftDef
 ## Install dependencies:
      npm install
 ## Run the development server:
+npm run dev 
+## 📸 Screenshots
+
+### Desktop View
+![Hero Section](./public/assets/screenshot.png)
+
+### Best O2 Section
+![Best O2](./public/assets/besto2.png)
